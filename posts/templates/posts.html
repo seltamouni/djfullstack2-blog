@@ -1,0 +1,4 @@
+<h1>Blog yaw how are you </h1>
+{% for element in mahmoud %}
+    <h3><a href="{% url 'single_post' element.id %}">{{element.name}}</a></h3>
+{% endfor %}    
